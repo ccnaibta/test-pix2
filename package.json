@@ -1,0 +1,28 @@
+{
+  "name": "pix-payment-app",
+  "version": "1.0.0",
+  "description": "Aplicação PIX com arquitetura limpa - Node.js 18",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "pix",
+    "payment",
+    "express"
+  ],
+  "author": "ccnaibta",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
